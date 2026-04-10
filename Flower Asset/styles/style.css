@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+button {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 1);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: rgb(236, 10, 59);
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: #272227;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+header,#discount {
+    background-color: rgba(240, 42, 85, 0.1);
+}
+
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-text * {
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+
+.banner .banner-text h1 {
+    color: #272227;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner .banner-img img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+
+.section-content .flowers .flower-img {
+    background-color: #e72fbf;
+    border-radius: 300px 300px 0 0;
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.section-content .flowers .flower-img img {
+    width: 100%;
+}
+
+.section-content .flowers .pink {
+    background-color: #e281b8;
+}
+
+.section-content .flowers .red {
+    background-color: #bd5555;
+}
+
+.section-content .flowers .green {
+    background-color: rgb(122, 228, 122);
+}
+
+.section-content .flowers p {
+    color: #272227;
+    text-align: center;
+    margin: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+}
+
+#icon .container {
+    background-color: rgba(39, 39, 39, 0.05);
+}
+
+.icons-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+
+}
+
+.icons-content .icon1 {
+    text-align: center;
+}
+
+.icons-content .icon1 .icon-img img {
+    width: 50px;
+    height: auto;
+}
+
+
+.section-discount {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 75px 0;
+    margin: 60px auto;
+}
+
+.section-discount .discount-banner-text *{
+    margin-bottom: 20px;
+}
+#instagram .card-flower{
+    flex-wrap: wrap;
+}
+#newsletter{
+    margin: 128px 0;
+}
+.newsletter-main{
+    background-image: url('../Rectangle\ 9.png');
+    padding: 122px 0;
+}
+.newsletter-main form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+.newsletter-main form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+}
+
+
+
+
